@@ -1,9 +1,103 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 5 oct. 2021, 21:06:20
-    Author     : Diana Pérez
-*/
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+
+.Site-content {
+  padding-top: 10px;
+  flex: 1;
+  /*position: relative;
+  z-index:0 !important;*/
+  
+}
+
+/* ELEMENTOS DEL FOOTER */
+
+footer{
+    width:100%; 
+    background-color: #CCC;
+    padding:5px 0px 5px 0px ;
+}
+
+.footerSecciones{
+    list-style-type:none;
+    padding:0px; 
+    display:table;
+    margin: 5px auto;
+    color: #1e1d1d;
+}
+
+.footer p{
+    font-size: 12px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: #333333;
+}
+
+.footerSecciones li{
+    display: inline;
+}
+
+.footerSecciones li a{
+    color:#1e1d1d; 
+    margin:0 12px;
+}
+
+.footerSecciones li a:hover{
+    color:#006699; 
+    margin:0 12px;
+    text-decoration: none;
+}
+
+.footerSecciones #faceLogo a:hover{
+    color:#3b5998; 
+    margin:0 12px;
+    text-decoration: none;
+    text-align: right
+}
+
+.footerSecciones #twitLogo a:hover{
+    color:#1da1f2; 
+    margin:0 12px;
+    text-decoration: none;
+    text-align: right
+}
+
+.footerSecciones #instaLogo a:hover{
+    color:#c13584; 
+    margin:0 12px;
+    text-decoration: none;
+    text-align: right
+}
+
+.footerSocial {
+    display:table;
+    margin:0 auto 15px; 
+    list-style-type:none;
+}
+
+.footerSocial li{
+    padding-left:20px; 
+    padding-top:10px; 
+    float:left; 
+}
+
+.footerSocial li a, .footerSecciones #faceLogo li a{
+    color:#333333; 
+    border:1px solid #CCC; 
+    padding:6px;
+    border-radius:50%;
+}
+
+.footerSocial li a:hover, .footerSecciones #faceLogo li a:hover{
+    color:white;
+    font-weight: bolder;
+}
+
+.footerSocial li a i{
+    width:20px; 
+    height:20px; 
+    text-align:center;
+}
