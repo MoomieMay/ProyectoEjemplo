@@ -7,7 +7,7 @@
         <base href="http://localhost/ProyectoEjemplo/"/>
         <!--Estilos-->
         <link href="lib/bootstrap.min.css" rel="Stylesheet" type="text/css" /> 
-        <link href="/css/estilos.css" type="text/css" />
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
         <!--Scripts-->
         <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -16,9 +16,9 @@
         
         
     </head>
-    <body>
+    <body class="Site">
         <!-- Menu colapsable -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -33,17 +33,18 @@
             </div>
          </nav>
         
+        <main class="Site-content">
         <!--Tarjetas con imagen + texto -->
         <div class="container" id="tarjeta">
             <div class="row">
                  <div class="card col-4" style="width: 18rem;">
-                <img src="img/tarjeta.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <!--a href="#" class="btn btn-primary">Go somewhere</a-->
-                </div>
-            </div>
+                        <img src="img/tarjeta.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <!--a href="#" class="btn btn-primary">Go somewhere</a-->
+                        </div>
+                    </div>
             
             <div class="card col-4" style="width: 18rem;">
                 <img src="img/tarjeta.jpg" class="card-img-top" alt="...">
@@ -60,6 +61,34 @@
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   <!--a href="#" class="btn btn-primary">Go somewhere</a-->
+                </div>
+            </div>
+            </div>
+            <div class="row">
+                 <div class="card col-4" style="width: 18rem;">
+                        <img src="img/tarjeta.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <!--a href="#" class="btn btn-primary">Go somewhere</a-->
+                        </div>
+                    </div>
+            
+            <div class="card col-4" style="width: 18rem;">
+                <img src="img/tarjeta.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <!--a href="#" class="btn btn-primary">Go somewhere</a-->
+                </div>
+            </div>
+           
+                <div class="card col-4" style="width: 18rem;">
+                <img src="img/tarjeta.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
             </div>
@@ -99,6 +128,60 @@
                 </a>
               </div>
         </div>
+        </main>
+        
+        <!-- FOOTER --> 
+        <footer id="foot" class="footer">
+    <div class="container">
+        <ul class="footerSecciones">
+            <li>
+                <a href="">Quienes Somos</a>
+            </li>
+            
+            <li>
+                <a href="">Contacto</a>
+            </li>
+            
+            <li>
+                <a href="">Política de Privacidad</a>
+            </li>
+            
+            <li>
+                <a href="">Preguntas Frecuentes</a>
+            </li>
+            
+                        
+        </ul>
+<!-- Fin de sección de items -->
+    
+
+
+    <ul class="footerSocial" hidden>
+        <li id="faceLogo">
+            <a href="http://www.facebook.com" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </li>
+        
+        <li id="">
+            <a href="http://www.twitter.com" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+        
+        <li>
+            <a href="http://www.instagram.com" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </li>
+        
+    </ul>
+<!-- Fin de sección de redes sociales-->
+<p class="text-center footerTitulo">Copyright @2020 | Diseñado por <a>Diana Pérez</a></p>
+    </div>
+</footer>
+
+
             
     </body>
 </html>
