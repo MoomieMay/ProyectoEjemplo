@@ -1,3 +1,4 @@
+/* GENERAL */
 .Site {
   display: flex;
   min-height: 100vh;
@@ -12,6 +13,54 @@
   z-index:0 !important;*/
   
 }
+
+/* CONTACTO */
+.contacto ul{
+    width: 65px;
+    padding-left: 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.contacto{
+    position: absolute;
+    top: auto;
+}
+
+.contacto li{
+    list-style-type: none;
+    padding: 10px;
+    transition: .6s;
+    color: whitesmoke;
+    position: relative;
+}
+
+.contacto li i{
+    font-size: 30px;
+}
+
+.contacto li:hover{
+    padding: 10px 30px
+}
+
+.contacto li:nth-child(1){
+    background: #3b5998;
+}
+
+.contacto li:nth-child(2){
+    background: #5851db;
+    background: -moz-linear-gradient(top,  #5851db 0%, #833ab4 27%, #833ab4 27%, #c13584 50%, #f77737 100%);
+    background: -webkit-linear-gradient(top,  #5851db 0%,#833ab4 27%,#833ab4 27%,#c13584 50%,#f77737 100%);
+    background: linear-gradient(to bottom,  #5851db 0%,#833ab4 27%,#833ab4 27%,#c13584 50%,#f77737 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5851db', endColorstr='#f77737',GradientType=0 );
+}
+
+.contacto li:nth-child(3){
+    background: #cb2017;
+}
+
+
+
 
 /* ELEMENTOS DEL FOOTER */
 
@@ -49,55 +98,4 @@ footer{
     color:#006699; 
     margin:0 12px;
     text-decoration: none;
-}
-
-.footerSecciones #faceLogo a:hover{
-    color:#3b5998; 
-    margin:0 12px;
-    text-decoration: none;
-    text-align: right
-}
-
-.footerSecciones #twitLogo a:hover{
-    color:#1da1f2; 
-    margin:0 12px;
-    text-decoration: none;
-    text-align: right
-}
-
-.footerSecciones #instaLogo a:hover{
-    color:#c13584; 
-    margin:0 12px;
-    text-decoration: none;
-    text-align: right
-}
-
-.footerSocial {
-    display:table;
-    margin:0 auto 15px; 
-    list-style-type:none;
-}
-
-.footerSocial li{
-    padding-left:20px; 
-    padding-top:10px; 
-    float:left; 
-}
-
-.footerSocial li a, .footerSecciones #faceLogo li a{
-    color:#333333; 
-    border:1px solid #CCC; 
-    padding:6px;
-    border-radius:50%;
-}
-
-.footerSocial li a:hover, .footerSecciones #faceLogo li a:hover{
-    color:white;
-    font-weight: bolder;
-}
-
-.footerSocial li a i{
-    width:20px; 
-    height:20px; 
-    text-align:center;
 }
