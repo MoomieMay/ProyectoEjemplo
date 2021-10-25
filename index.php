@@ -49,14 +49,6 @@
         <!--Tarjetas con imagen + texto -->
         <div class="container" id="tarjeta">
             <div class="row">
-                <!--Contacto -->
-        <div class="contacto">
-            <ul>
-                <li onclick='window.open("https://www.facebook.com/")'><i class="fa fa-facebook"></i></li>
-                <li onclick='window.open("https://www.instagram.com/")'><i class="fa fa-instagram"></i></li>
-                <li onclick='window.open("mailto:mail@gmail.com")'><i class="fa fa-envelope"></i></li>
-            </ul>
-        </div>
                  <div class="card col-4" style="width: 18rem;">
                 <img src="img/tarjeta.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
